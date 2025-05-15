@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="12dp"
+    android:background="#FE7743">
+
+    <!-- Spacer untuk Rank dan Logo -->
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Nama Klub"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <!-- T: Main -->
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:text="T"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <!-- M: Menang -->
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <!-- S: Seri -->
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <!-- K: Kalah -->
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:text="K"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <!-- SG -->
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:text="SG"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <!-- Poin -->
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:text="Poin"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"/>
+</LinearLayout>

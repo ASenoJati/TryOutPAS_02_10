@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:text="Klasemen"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingTop="20dp">
+
+    <include
+        android:id="@+id/layoutHeader"
+        layout="@layout/layout_klasemen_header"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rvKlasemen"
+        android:visibility="gone"
+        />
+
+    <ProgressBar
+        android:id="@+id/pbLoading1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
 </LinearLayout>

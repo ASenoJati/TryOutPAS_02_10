@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="12dp"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- Peringkat -->
+    <TextView
+        android:id="@+id/tvRank"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <!-- Logo Klub -->
+    <ImageView
+        android:id="@+id/ivBadge"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- Nama Klub -->
+    <TextView
+        android:id="@+id/tvTeam"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Liverpool"
+        android:textColor="@android:color/black"
+        android:maxLines="1" />
+
+    <!-- Main (T) -->
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="36"
+        android:textColor="@android:color/black" />
+
+    <!-- Menang (M) -->
+    <TextView
+        android:id="@+id/tvWin"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="25"
+        android:textColor="@android:color/black" />
+
+    <!-- Seri (S) -->
+    <TextView
+        android:id="@+id/tvDraw"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="8"
+        android:textColor="@android:color/black" />
+
+    <!-- Kalah (K) -->
+    <TextView
+        android:id="@+id/tvLoss"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="@android:color/black" />
+
+    <!-- SG -->
+    <TextView
+        android:id="@+id/tvGoalDiff"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="46"
+        android:textColor="@android:color/black" />
+
+    <!-- Poin -->
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="83"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+</LinearLayout>
